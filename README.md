@@ -10,7 +10,7 @@ npm test
 ```
 
 ### Example test code
-```
+```js
 describe("SmartContract", () => {
   it("should run basic contract", async () => {
     const source = `
@@ -35,7 +35,7 @@ describe("SmartContract", () => {
 ```
 
 ### Example compile function
-```
+```js
 async function buildCodeCell(source: string) {
   const pathToStdlib = 'node_modules/ton-compiler/test/contracts/stdlib.fc'
 
