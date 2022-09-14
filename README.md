@@ -9,7 +9,7 @@ npm run build --prefix node_modules/ton-compiler
 npm test
 ```
 
-###Example test code
+### Example test code
 ```
 describe("SmartContract", () => {
   it("should run basic contract", async () => {
@@ -34,7 +34,7 @@ describe("SmartContract", () => {
 })
 ```
 
-###Example compile function
+### Example compile function
 ```
 async function buildCodeCell(source: string) {
   const pathToStdlib = 'node_modules/ton-compiler/test/contracts/stdlib.fc'
@@ -53,11 +53,11 @@ async function buildCodeCell(source: string) {
 }
 ```
 
-##Lessons
+## Lessons
 - https://society.ton.org/ton-hello-world-step-by-step-guide-for-writing-your-first-smart-contract-in-func
 - https://github.com/romanovichim/TonFunClessons_ru
 - https://github.com/romanovichim/TonFunClessons_Eng
 
-##Documentation
+## Documentation
 - https://www.tonspace.co/
 - https://ton.org/docs/#/
