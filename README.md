@@ -55,6 +55,7 @@ async function buildCodeCell(source: string) {
 
 ## Lessons
 - https://society.ton.org/ton-hello-world-step-by-step-guide-for-writing-your-first-smart-contract-in-func
+- https://society.ton.org/ton-hello-world-guide-for-writing-first-smart-contract-in-func-part-2
 - https://github.com/romanovichim/TonFunClessons_ru
 - https://github.com/romanovichim/TonFunClessons_Eng
 
