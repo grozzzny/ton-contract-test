@@ -5,7 +5,7 @@ Sources:
 
 
 ### Example test code
-```
+```js
 describe("SmartContract", () => {
   it("should run basic contract", async () => {
     const source = `
@@ -50,7 +50,7 @@ await compiler.compileCell(['contract.fc'], 'contract')
 ```
 npm run build --prefix node_modules/ton-compiler
 ```
-```
+```js
 async function buildCodeCell(source: string) {
   const pathToStdlib = 'node_modules/ton-compiler/test/contracts/stdlib.fc'
 
