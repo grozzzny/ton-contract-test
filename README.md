@@ -35,8 +35,11 @@ describe("SmartContract", () => {
 
 ```js
 const compiler = new TonCompiler({
-  smartcontLibs: ['<ton>/crypto/smartcont/stdlib.fc'],
-  fiftLib: '<ton>/crypto/fift/lib'
+  smartcontLibs: ['<ton directory>/crypto/smartcont/stdlib.fc'],
+  fiftLib: '<ton directory>/crypto/fift/lib',
+  fift: '/usr/bin/fift',
+  func: '/usr/bin/func',
+  tmpDir: '/tmp'
 })
 await compiler.getCell('..code func')
 await compiler.compileCell(['contract.fc'], 'contract')
