@@ -1,4 +1,4 @@
-# TON Contract test
+# TON Contract test TypeScript
 
 Sources:
  - https://github.com/grozzzny/ton-compiler-groz
