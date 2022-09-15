@@ -1,8 +1,6 @@
 # TON Contract test TypeScript
 
 Sources:
- - https://github.com/grozzzny/ton-compiler-groz
- - https://github.com/the-ton-tech/ton-compiler
  - https://github.com/Naltox/ton-contract-executor/blob/8b352d0cf96553e9ded19a102a890e17c973d017/src/smartContract/SmartContract.spec.ts
 
 
@@ -33,10 +31,7 @@ describe("SmartContract", () => {
 ```
 
 ###Example compile function by grozzzny
-
-```
-git clone https://github.com/newton-blockchain/ton.git
-```
+ - https://github.com/grozzzny/ton-compiler-groz
 
 ```js
 const compiler = new TonCompiler({
@@ -48,6 +43,7 @@ await compiler.compileCell(['contract.fc'], 'contract')
 ```
 
 ###Example compile function by the-ton-tech
+ - https://github.com/the-ton-tech/ton-compiler
 ```
 npm run build --prefix node_modules/ton-compiler
 ```
