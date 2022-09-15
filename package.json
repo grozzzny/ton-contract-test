@@ -1,9 +1,14 @@
 {
-  "name": "",
-  "description": "",
-  "version": "0.0.0",
+  "name": "ton-contract-test",
+  "description": "Ton contract test",
+  "version": "0.0.1",
+  "author": "Dmitriy Groznyy <grozzzny@gmail.com>",
   "scripts": {
     "test": "mocha --exit test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grozzzny/ton-contract-test"
   },
   "devDependencies": {
     "@types/bn.js": "^5.1.0",
@@ -14,12 +19,13 @@
     "chai-bn": "^0.3.1",
     "mocha": "^9.1.3",
     "ton": "^9.6.3",
+    "ton-compiler": "https://github.com/the-ton-tech/ton-compiler",
     "ton-contract-executor": "^0.4.8",
     "ton-crypto": "^3.1.0",
     "tonweb": "^0.0.54",
     "ts-node": "^10.7.0",
     "typescript": "^4.5.2",
-    "ton-compiler": "https://github.com/the-ton-tech/ton-compiler"
+    "ton-compiler-groz": "^0.0.4"
   },
   "mocha": {
     "require": [
