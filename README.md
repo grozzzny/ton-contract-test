@@ -4,7 +4,7 @@ Sources:
  - https://github.com/Naltox/ton-contract-executor/blob/8b352d0cf96553e9ded19a102a890e17c973d017/src/smartContract/SmartContract.spec.ts
 
 
-###Example test code
+### Example test code
 ```
 describe("SmartContract", () => {
   it("should run basic contract", async () => {
@@ -30,7 +30,7 @@ describe("SmartContract", () => {
 })
 ```
 
-###Example compile function by grozzzny
+### Example compile function by grozzzny
  - https://github.com/grozzzny/ton-compiler-groz
 
 ```js
@@ -42,7 +42,7 @@ await compiler.getCell('..code func')
 await compiler.compileCell(['contract.fc'], 'contract')
 ```
 
-###Example compile function by the-ton-tech
+### Example compile function by the-ton-tech
  - https://github.com/the-ton-tech/ton-compiler
 ```
 npm run build --prefix node_modules/ton-compiler
@@ -65,12 +65,12 @@ async function buildCodeCell(source: string) {
 }
 ```
 
-##Lessons
+## Lessons
 - https://society.ton.org/ton-hello-world-step-by-step-guide-for-writing-your-first-smart-contract-in-func
 - https://society.ton.org/ton-hello-world-guide-for-writing-first-smart-contract-in-func-part-2
 - https://github.com/romanovichim/TonFunClessons_ru
 - https://github.com/romanovichim/TonFunClessons_Eng
 
-##Documentation
+## Documentation
 - https://www.tonspace.co/
 - https://ton.org/docs/#/
